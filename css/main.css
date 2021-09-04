@@ -70,7 +70,7 @@ a:hover.project-link .info-display {
   color: white;
   text-align: center; }
 
-.icon {
+.fa.icon {
   color: white;
   font-size: 36px;
   margin: 10px; }
