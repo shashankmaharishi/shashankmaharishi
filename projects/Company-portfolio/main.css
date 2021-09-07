@@ -334,8 +334,12 @@ a:hover{
     padding: 3rem 2rem;
     color: black;
     box-shadow: 0px 0px 10px grey;
-    
-}
+    }
+    @media screen and (max-width:768px){
+        .card-1{
+            margin-bottom: 20px;
+        }
+    }
 .icon-3{
     display: block;
     text-align: center;
