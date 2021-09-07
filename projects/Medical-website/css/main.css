@@ -79,6 +79,9 @@ body {
   font-weight: 500;
   color: white; }
 
+.trans-border {
+  border-bottom: 2px solid transparent; }
+
 .padding-1 {
   padding-top: 200px;
   padding-bottom: 200px; }
@@ -498,7 +501,8 @@ div:focus.card-header {
   .margin-right-3 {
     margin-right: 0px; } }
 .height-2 {
-  height: 400px; }
+  height: 400px;
+  background-color: white; }
 
 .z-index-1 {
   z-index: 1; }
@@ -514,5 +518,35 @@ a:hover.font-8.d-block {
 
 .opacity {
   opacity: .5; }
+
+.margin-x {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem; }
+
+@media screen and (max-width: 768px) {
+  .margin-x {
+    margin-left: 0px;
+    margin-right: 0px; }
+
+  .d-flex {
+    flex-direction: column; }
+
+  .height-2 {
+    margin: 10px 0px; }
+
+  .margin-bottom {
+    margin: 10px 0px; }
+
+  .d-flex.mt-2 {
+    flex-direction: row; }
+
+  .col-12.col-sm-12.col-md.box-shadow.p-0 {
+    margin: 10px 0px; }
+
+  .text-center {
+    margin: 10px 0px; }
+
+  .half-column.bg-white {
+    height: 25%; } }
 
 /*# sourceMappingURL=main.css.map */
