@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-custom{
+  box-shadow: 0px 0px 5px #d9d2d2;
+  background-color: rgba(244, 244, 246, 1);
+}
+.navLogo{
+  height: 6rem;
+  width: 20rem;
+}
+.nav-item-custom{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "sans-serif";
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.navbar-nav{
+  align-items: center;
+}
+.nav-item-custom::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #292929;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-item-custom:hover::after {
+  width: 70%;
+}
+.navbar-toggler .navbar-toggler-custom{
+  color:  rgba(255,255,255,.1) !important;
+    border-color: rgba(255,255,255,.55) !important;
+    background-color: rgba(255,255,255,.55) !important;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar-toggler{
+  background-color: #af9898;
+}
+.aboutWrapper{
+  background-image: url(./assets/about/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bgHero{
+  background-image: linear-gradient(135deg, rgba(10,10,10,0.8) 60%,rgba(244,244,246,0.5) 40%) ;
+  height: 100vh;
+}
+.profileContainer{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.profile-image{
+  height: 90vh;
+  border-radius: 50px;
+  object-fit: contain;
+}
+.heroContent{
+  display: flex;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroTitle{
+  font-size: 5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.projectContainer{
+  height:100vh;
+  background-image: linear-gradient(165deg, rgba(244,244,246,1) 100%, rgba(122,122,122,1) 100%);
+  padding: 8rem 0px;
+}
+.projectSubTitle{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  color: rgb(153, 153, 161);
+}
+.ProjectTitle{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem;
+  font-family: Poppins, sans-serif;
+  color: rgb(31, 31, 31);
+}
+.projectBody{
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: Poppins, sans-serif;
+  color: rgb(153, 153, 161);
+}
+.projectCardContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.projectCardSingle{
+  padding: 1.25rem 3rem;
+  background-color: rgb(51, 51, 51);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 280px;
+  box-shadow: 0 0 25px;
+}
+.projectCardTitle{
+  color: rgb(153, 153, 161);
+  font-size: 1rem;
+  font-weight: 700;
+  min-width: 133px;
+  text-align: center;
+}
+.projectImage{
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+}
+.experienceLogoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.experienceLogo{
+  width:26px;
+  height: 26px;
+  object-fit: contain;
+}
+.resumeContainer{
+  padding:1.25rem .75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(212 212 216);
+  background-color: rgb(51 51 51);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.experienceWrapper{
+  background-image: linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url(/src/assets/backgrounds/white-abstract.png);
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.experiencebg{
+  background-color: black;
+  padding: 6rem 0;
+}
+.experience-linear{
+  background-image: linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 130px;
+  padding: 4rem ;
+}
+.skillWrapper{
+  /* background-image: url(./assets/backgrounds/nairobi.png); */
+  background-image: linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url(./assets/backgrounds/nairobi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 6rem 0;
+}
+.skillContainer{
+  padding:1rem 2rem;
+  border:2px solid rgb(244,244,246);
+  margin-top: 6rem;
+  color:white;
+  position: relative;
+}
+.skillCardBg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+}
+.skillText{
+  position: relative;
+  z-index: 100;
+  color: #292929;
+  font-weight: 700;
+}

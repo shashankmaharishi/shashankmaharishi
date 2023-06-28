@@ -1,0 +1,16 @@
+import logo from "../assets/navBar/logo-shashank.png"
+import profile from "../assets/about/profile-image-removebg-preview.png"
+import game from "../assets/icons/console.png"
+import medical from "../assets/icons/hospital.png"
+import portfolio from "../assets/icons/diary.png"
+import agency from "../assets/icons/presentation.png"
+import forkify from "../assets/icons/hot-tub.png"
+import squareboat from "../assets/experience/squareboat.png"
+import chicku from "../assets/experience/chickuApp.jpg"
+import download from "../assets/icons/download.png"
+import downloadHover from "../assets/icons/downloadHover.png"
+import resume from "../assets/icons/resume.png"
+import nairobi from "../assets/backgrounds/nairobi.png"
+import shashankResume from "../assets/experience/ShashankRESUME.pdf"
+
+export {logo,profile,game,medical,portfolio,agency,forkify,squareboat,chicku,download,downloadHover,resume,nairobi,shashankResume}
